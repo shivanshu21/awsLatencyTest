@@ -1,0 +1,48 @@
+Writer
+======
+root@shivanshu-VirtualBox ~/workspace/manual_check_aws: python writeTest.py --ifile=yes
+Wrote testobj1 at: 2016-11-14 04:37:24.007014
+Wrote testobj2 at: 2016-11-14 04:37:38.701323
+Wrote testobj3 at: 2016-11-14 04:37:53.219403
+Wrote testobj4 at: 2016-11-14 04:38:07.284705
+Wrote testobj5 at: 2016-11-14 04:38:21.561381
+Wrote testobj6 at: 2016-11-14 04:38:35.196924
+Wrote testobj7 at: 2016-11-14 04:38:49.107230
+Wrote testobj8 at: 2016-11-14 04:39:03.043224
+Wrote testobj9 at: 2016-11-14 04:39:16.303686
+Wrote testobj10 at: 2016-11-14 04:39:30.334184
+Wrote testobj11 at: 2016-11-14 04:39:44.601210
+Wrote testobj12 at: 2016-11-14 04:39:58.738039
+Wrote testobj13 at: 2016-11-14 04:40:13.283190
+Wrote testobj14 at: 2016-11-14 04:40:27.599075
+Wrote testobj15 at: 2016-11-14 04:40:41.149737
+Wrote testobj16 at: 2016-11-14 04:40:55.581150
+Wrote testobj17 at: 2016-11-14 04:41:07.122424
+Wrote testobj18 at: 2016-11-14 04:41:21.618267
+Wrote testobj19 at: 2016-11-14 04:41:35.465426
+Wrote testobj20 at: 2016-11-14 04:41:48.744918
+Deleting all objects...
+
+Reader
+======
+root@ip-172-31-23-97 ~/KurmaTest0: python readTest.py --ifile=yes
+Read testobj1 at: 2016-11-14 04:37:24.662727
+Read testobj2 at: 2016-11-14 04:37:39.242667
+Read testobj3 at: 2016-11-14 04:37:53.780025
+Read testobj4 at: 2016-11-14 04:38:07.837422
+Read testobj5 at: 2016-11-14 04:38:22.107388
+Read testobj6 at: 2016-11-14 04:38:35.715515
+Read testobj7 at: 2016-11-14 04:38:49.692905
+Read testobj8 at: 2016-11-14 04:39:03.548401
+Read testobj9 at: 2016-11-14 04:39:16.848575
+Read testobj10 at: 2016-11-14 04:39:30.839433
+Read testobj11 at: 2016-11-14 04:39:45.166157
+Read testobj12 at: 2016-11-14 04:39:59.259852
+Read testobj13 at: 2016-11-14 04:40:13.858002
+Read testobj14 at: 2016-11-14 04:40:28.077850
+Read testobj15 at: 2016-11-14 04:40:41.663954
+Read testobj16 at: 2016-11-14 04:40:56.067514
+Read testobj17 at: 2016-11-14 04:41:07.643744
+Read testobj18 at: 2016-11-14 04:41:22.142054
+Read testobj19 at: 2016-11-14 04:41:36.692175
+Read testobj20 at: 2016-11-14 04:41:49.310835
