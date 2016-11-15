@@ -108,3 +108,108 @@ Read testobj18 at: 2016-11-15 16:47:16.720164
 Read testobj19 at: 2016-11-15 16:47:26.869182
 Read testobj20 at: 2016-11-15 16:47:40.672773
 
+
+==================================================================
+
+Repeat of NY Ireland and Oregon
+
+root@shivanshu-VirtualBox ~/KurmaTest0: python writeTest.py --ifile=yes
+Wrote testobj1 at: 2016-11-15 16:58:16.534752
+Wrote testobj2 at: 2016-11-15 16:58:28.026407
+Wrote testobj3 at: 2016-11-15 16:58:39.745322
+Wrote testobj4 at: 2016-11-15 16:58:51.823460
+Wrote testobj5 at: 2016-11-15 16:59:07.188313
+Wrote testobj6 at: 2016-11-15 16:59:18.710844
+Wrote testobj7 at: 2016-11-15 16:59:35.819808
+Wrote testobj8 at: 2016-11-15 16:59:47.775151
+Wrote testobj9 at: 2016-11-15 16:59:59.841518
+Wrote testobj10 at: 2016-11-15 17:00:11.376640
+Wrote testobj11 at: 2016-11-15 17:00:23.154683
+Wrote testobj12 at: 2016-11-15 17:00:34.766339
+Wrote testobj13 at: 2016-11-15 17:00:47.190968
+Wrote testobj14 at: 2016-11-15 17:00:59.587681
+Wrote testobj15 at: 2016-11-15 17:01:13.963662
+Wrote testobj16 at: 2016-11-15 17:01:26.655012
+Wrote testobj17 at: 2016-11-15 17:01:38.568357
+Wrote testobj18 at: 2016-11-15 17:01:50.601790
+Wrote testobj19 at: 2016-11-15 17:02:02.487565
+Wrote testobj20 at: 2016-11-15 17:02:15.281592
+Deleting all objects...
+
+
+root@ip-172-31-23-97 ~/KurmaTest0: python readTest.py --ifile=yes
+Read testobj1 at: 2016-11-15 16:58:19.442352
+Read testobj2 at: 2016-11-15 16:58:30.306632
+Read testobj3 at: 2016-11-15 16:58:42.710585
+Read testobj4 at: 2016-11-15 16:58:53.309390
+Read testobj5 at: 2016-11-15 16:59:09.978489
+Read testobj6 at: 2016-11-15 16:59:21.619282
+Read testobj7 at: 2016-11-15 16:59:38.668681
+Read testobj8 at: 2016-11-15 16:59:49.171402
+Read testobj9 at: 2016-11-15 17:00:03.042447
+Read testobj10 at: 2016-11-15 17:00:14.698125
+Read testobj11 at: 2016-11-15 17:00:26.176583
+Read testobj12 at: 2016-11-15 17:00:38.025642
+Read testobj13 at: 2016-11-15 17:00:50.146973
+Read testobj14 at: 2016-11-15 17:01:02.926944
+Read testobj15 at: 2016-11-15 17:01:17.672512
+Read testobj16 at: 2016-11-15 17:01:29.740239
+Read testobj17 at: 2016-11-15 17:01:41.713866
+Read testobj18 at: 2016-11-15 17:01:54.004190
+Read testobj19 at: 2016-11-15 17:02:05.695019
+Read testobj20 at: 2016-11-15 17:02:18.750033
+root@ip-172-31-23-97 ~/KurmaTest0: 
+
+
+==================================================================
+
+Repeat of NY Ireland and Oregon with 1K object instead of 1M
+
+root@shivanshu-VirtualBox ~/KurmaTest0: python writeTest.py --ifile=yes
+Wrote testobj1 at: 2016-11-15 17:06:32.066631
+Wrote testobj2 at: 2016-11-15 17:06:42.983427
+Wrote testobj3 at: 2016-11-15 17:06:54.068256
+Wrote testobj4 at: 2016-11-15 17:07:05.551890
+Wrote testobj5 at: 2016-11-15 17:07:16.482242
+Wrote testobj6 at: 2016-11-15 17:07:27.474248
+Wrote testobj7 at: 2016-11-15 17:07:38.400986
+Wrote testobj8 at: 2016-11-15 17:07:49.965065
+Wrote testobj9 at: 2016-11-15 17:08:01.183138
+Wrote testobj10 at: 2016-11-15 17:08:12.611711
+Wrote testobj11 at: 2016-11-15 17:08:24.038291
+Wrote testobj12 at: 2016-11-15 17:08:34.736905
+Wrote testobj13 at: 2016-11-15 17:08:46.965879
+Wrote testobj14 at: 2016-11-15 17:08:58.186651
+Wrote testobj15 at: 2016-11-15 17:09:09.435479
+Wrote testobj16 at: 2016-11-15 17:09:20.851687
+Wrote testobj17 at: 2016-11-15 17:09:32.456204
+Wrote testobj18 at: 2016-11-15 17:09:44.053648
+Wrote testobj19 at: 2016-11-15 17:09:55.350186
+Wrote testobj20 at: 2016-11-15 17:10:07.050413
+Deleting all objects...
+
+
+root@ip-172-31-23-97 ~/KurmaTest0: python readTest.py --ifile=yes
+Read testobj1 at: 2016-11-15 17:06:32.187126
+Read testobj2 at: 2016-11-15 17:06:42.981824
+Read testobj3 at: 2016-11-15 17:06:54.201988
+Read testobj4 at: 2016-11-15 17:07:05.482253
+Read testobj5 at: 2016-11-15 17:07:16.597254
+Read testobj6 at: 2016-11-15 17:07:27.535416
+Read testobj7 at: 2016-11-15 17:07:38.526991
+Read testobj8 at: 2016-11-15 17:07:49.974077
+Read testobj9 at: 2016-11-15 17:08:01.476577
+Read testobj10 at: 2016-11-15 17:08:13.744799
+Read testobj11 at: 2016-11-15 17:08:24.142200
+Read testobj12 at: 2016-11-15 17:08:34.852564
+Read testobj13 at: 2016-11-15 17:08:45.437409
+Read testobj14 at: 2016-11-15 17:08:58.308599
+Read testobj15 at: 2016-11-15 17:09:09.483020
+Read testobj16 at: 2016-11-15 17:09:21.771600
+Read testobj17 at: 2016-11-15 17:09:32.500760
+Read testobj18 at: 2016-11-15 17:09:44.006347
+Read testobj19 at: 2016-11-15 17:09:55.394049
+Read testobj20 at: 2016-11-15 17:10:07.109248
+root@ip-172-31-23-97 ~/KurmaTest0:
+
+
