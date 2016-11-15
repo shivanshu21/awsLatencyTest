@@ -212,4 +212,52 @@ Read testobj19 at: 2016-11-15 17:09:55.394049
 Read testobj20 at: 2016-11-15 17:10:07.109248
 root@ip-172-31-23-97 ~/KurmaTest0:
 
+==================================================================
+
+Repeat of NY Ireland and Oregon
+Wrote one 1M object
+Read it 20 times
+This shows if all the latency in 1M objects is from network or
+some is because of S3.
+Caching could have come in picture?
+
+Observation was that first read was slow => 3s
+Subsequent reads were much faster => 1s
+
+Maybe S3 is indeed taking some time to make larger objects consistent
+
+
+root@shivanshu-VirtualBox ~/KurmaTest0: python writeTest_ws.py --ifile=yes
+Wrote testobj1 at: 2016-11-15 17:28:17.283966
+root@shivanshu-VirtualBox ~/KurmaTest0:
+
+root@ip-172-31-23-97 ~/KurmaTest0: python readTest_ws.py --ifile=yes
+Read testobj1 at: 2016-11-15 17:28:20.697851
+Read testobj1 at: 2016-11-15 17:28:22.426239
+Read testobj1 at: 2016-11-15 17:28:23.770785
+Read testobj1 at: 2016-11-15 17:28:24.854732
+Read testobj1 at: 2016-11-15 17:28:25.809440
+Read testobj1 at: 2016-11-15 17:28:26.762095
+Read testobj1 at: 2016-11-15 17:28:27.592883
+Read testobj1 at: 2016-11-15 17:28:28.455715
+Read testobj1 at: 2016-11-15 17:28:29.151413
+Read testobj1 at: 2016-11-15 17:28:31.400164
+Read testobj1 at: 2016-11-15 17:28:34.299988
+Read testobj1 at: 2016-11-15 17:28:35.903627
+Read testobj1 at: 2016-11-15 17:28:36.988195
+Read testobj1 at: 2016-11-15 17:28:37.813346
+Read testobj1 at: 2016-11-15 17:28:38.800301
+Read testobj1 at: 2016-11-15 17:28:39.497286
+Read testobj1 at: 2016-11-15 17:28:40.192817
+Read testobj1 at: 2016-11-15 17:28:40.894996
+Read testobj1 at: 2016-11-15 17:28:41.718901
+Read testobj1 at: 2016-11-15 17:28:46.559121
+
+==================================================================
+
+Deletion test
+
+Write 10 objects
+Delete one by one with some sleep
+Reader tries reading everything and prints timestamp of read or "could not read"
 
