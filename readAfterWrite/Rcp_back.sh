@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo -i
-cp ~/KurmaTest0/ ./dssSanityLib.py
-cp ~/KurmaTest0/ ./oneliner.sh
-cp ~/KurmaTest0/ ./readTest.py
+#sudo -i
+cp -rv ~/KurmaTest0/dssSanityLib.py ./dssSanityLib.py
+cp -rv ~/KurmaTest0/oneliner.sh ./oneliner.sh
+cp -rv ~/KurmaTest0/readTest.py ./readTest.py
