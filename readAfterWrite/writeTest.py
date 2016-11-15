@@ -1,6 +1,7 @@
 import os
 import sys
 import time
+import boto
 import dssSanityLib
 from boto.s3.key import Key
 from datetime import datetime
@@ -26,14 +27,14 @@ def main(argv):
 
     bucket = userObj.get_bucket(bucket_name)
     k = Key(bucket)
-    for i in range(1, 21):
-        k.key = 'testobj' + str(i)
-        k.set_contents_from_filename('data')
-        print ("Wrote testobj" + str(i) + " at: "+ str(datetime.now()))
-        time.sleep(10)
+    #for i in range(1, 21):
+    #    k.key = 'testobj' + str(i)
+    #    k.set_contents_from_filename('data')
+    #    print ("Wrote testobj" + str(i) + " at: "+ str(datetime.now()))
+    #    time.sleep(10)
 
     print ("Deleting all objects...")
-    for k in b.list():
+    for k in bucket.list():
         k.delete()
 
     return
