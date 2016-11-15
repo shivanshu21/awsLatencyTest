@@ -30,7 +30,7 @@ def main(argv):
     bucket = userObj.get_bucket(bucket_name)
     i = 1
     j = 0
-    while (i < 21 and j < 10):
+    while (i < 21 and j < 10000):
         j = j + 1
         k = Key(bucket)
         keystring = 'testobj' + str(i)
@@ -40,7 +40,7 @@ def main(argv):
             print ("Read " + keystring + " at: "+ str(datetime.now()))
             i = i + 1
         except:
-            print("====          Read failed at: " + str(datetime.now()))
+            #print("====          Read failed at: " + str(datetime.now()))
             i = i
 
     return
