@@ -1,3 +1,9 @@
+
+
+Writer in NY writing to US standard region
+Reader in Oregon reading from US standard region
+Time accurate to 100 ms
+
 Writer
 ======
 root@shivanshu-VirtualBox ~/workspace/manual_check_aws: python writeTest.py --ifile=yes
@@ -46,3 +52,59 @@ Read testobj17 at: 2016-11-14 04:41:07.643744
 Read testobj18 at: 2016-11-14 04:41:22.142054
 Read testobj19 at: 2016-11-14 04:41:36.692175
 Read testobj20 at: 2016-11-14 04:41:49.310835
+
+
+
+===============================================================================
+
+
+Writer in NY writing to Ireland
+Reader in Oregon reading from Ireland
+Time accurate to 200ms
+
+root@shivanshu-VirtualBox ~/KurmaTest0: python writeTest.py --ifile=yes
+Wrote testobj1 at: 2016-11-15 16:43:40.278944
+Wrote testobj2 at: 2016-11-15 16:43:52.535989
+Wrote testobj3 at: 2016-11-15 16:44:04.062055
+Wrote testobj4 at: 2016-11-15 16:44:16.398701
+Wrote testobj5 at: 2016-11-15 16:44:28.022078
+Wrote testobj6 at: 2016-11-15 16:44:39.927671
+Wrote testobj7 at: 2016-11-15 16:44:51.481518
+Wrote testobj8 at: 2016-11-15 16:45:03.371855
+Wrote testobj9 at: 2016-11-15 16:45:15.149929
+Wrote testobj10 at: 2016-11-15 16:45:27.539124
+Wrote testobj11 at: 2016-11-15 16:45:45.390405
+Wrote testobj12 at: 2016-11-15 16:45:57.419830
+Wrote testobj13 at: 2016-11-15 16:46:09.375712
+Wrote testobj14 at: 2016-11-15 16:46:21.139110
+Wrote testobj15 at: 2016-11-15 16:46:33.915331
+Wrote testobj16 at: 2016-11-15 16:46:46.455129
+Wrote testobj17 at: 2016-11-15 16:46:59.768794
+Wrote testobj18 at: 2016-11-15 16:47:13.667114
+Wrote testobj19 at: 2016-11-15 16:47:25.263772
+Wrote testobj20 at: 2016-11-15 16:47:37.629723
+Deleting all objects...
+
+
+root@ip-172-31-23-97 ~/KurmaTest0: python readTest.py --ifile=yes
+Read testobj1 at: 2016-11-15 16:43:42.964170
+Read testobj2 at: 2016-11-15 16:43:55.564281
+Read testobj3 at: 2016-11-15 16:44:06.941173
+Read testobj4 at: 2016-11-15 16:44:17.883715
+Read testobj5 at: 2016-11-15 16:44:30.897466
+Read testobj6 at: 2016-11-15 16:44:42.862423
+Read testobj7 at: 2016-11-15 16:44:54.584841
+Read testobj8 at: 2016-11-15 16:45:06.411209
+Read testobj9 at: 2016-11-15 16:45:17.493388
+Read testobj10 at: 2016-11-15 16:45:30.455107
+Read testobj11 at: 2016-11-15 16:45:48.439428
+Read testobj12 at: 2016-11-15 16:46:00.501283
+Read testobj13 at: 2016-11-15 16:46:10.768243
+Read testobj14 at: 2016-11-15 16:46:23.800280
+Read testobj15 at: 2016-11-15 16:46:35.245594
+Read testobj16 at: 2016-11-15 16:46:49.408992
+Read testobj17 at: 2016-11-15 16:47:02.590956
+Read testobj18 at: 2016-11-15 16:47:16.720164
+Read testobj19 at: 2016-11-15 16:47:26.869182
+Read testobj20 at: 2016-11-15 16:47:40.672773
+
