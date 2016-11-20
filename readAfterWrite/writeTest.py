@@ -2,7 +2,7 @@ import os
 import sys
 import time
 import boto
-import dssSanityLib
+import KurmaAWSTestLib
 from boto.s3.key import Key
 from datetime import datetime
 
@@ -11,18 +11,18 @@ from datetime import datetime
 def main(argv):
 
     ## PARAM OVERRIDES
-    dssSanityLib.GLOBAL_DEBUG = 1
+    KurmaAWSTestLib.GLOBAL_DEBUG = 1
     bucket_name = 'readafterwrite003kurmaeu'
 
-    ret = dssSanityLib.fetchArgs(argv)
+    ret = KurmaAWSTestLib.fetchArgs(argv)
     if(ret == -1):
         sys.exit(2)
 
-    #userObj = dssSanityLib.getConnection(0)
+    #userObj = KurmaAWSTestLib.getConnection(0)
     userObj = boto.s3.connect_to_region(
                       'eu-west-1',
-                      aws_access_key_id=dssSanityLib.user_profiles[0]['access'],
-                      aws_secret_access_key=dssSanityLib.user_profiles[0]['secret'],
+                      aws_access_key_id=KurmaAWSTestLib.user_profiles[0]['access'],
+                      aws_secret_access_key=KurmaAWSTestLib.user_profiles[0]['secret'],
                       calling_format=boto.s3.connection.OrdinaryCallingFormat())
 
     bucket = userObj.get_bucket(bucket_name)
