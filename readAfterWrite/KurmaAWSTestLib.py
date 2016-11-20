@@ -145,7 +145,7 @@ def fetchArgs(argv):
     global COMMAND_TARG
 
     try:
-        opts, args = getopt.getopt(argv,"a:s:h:i:c:n:t:u",["access-key=","secret-key=","ifile=","command=","number=","target=","user="])
+        opts, args = getopt.getopt(argv,"a:s:h:i",["access-key=","secret-key=","ifile="])
     except getopt.GetoptError:
         printsHelp()
         sys.exit(2)
@@ -153,14 +153,6 @@ def fetchArgs(argv):
         if opt == '-h':
             printsHelp()
             sys.exit()
-        elif opt in ("-c", "--command"):
-            CLI_COMMAND = arg
-        elif opt in ("-n", "--number"):
-            COMMAND_NUM = arg
-        elif opt in ("-t", "--target"):
-            COMMAND_TARG = arg
-        elif opt in ("-u", "--user"):
-            CLI_USER = arg
         elif opt in ("-i", "--ifile"):
             try:
                 import awsKeys
