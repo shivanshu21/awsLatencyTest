@@ -1,0 +1,150 @@
+Single site NY to Ireland 10K file
+==================================
+
+root@shivanshu-VirtualBox ~/KurmaTest0: python writeTest.py --ifile=yes
+Wrote testobj1 at: 2016-12-01 14:42:35.139878
+Wrote testobj2 at: 2016-12-01 14:42:46.131431
+Wrote testobj3 at: 2016-12-01 14:42:58.328841
+Wrote testobj4 at: 2016-12-01 14:43:09.714460
+Wrote testobj5 at: 2016-12-01 14:43:21.108767
+Wrote testobj6 at: 2016-12-01 14:43:32.335035
+Wrote testobj7 at: 2016-12-01 14:43:43.085126
+Wrote testobj8 at: 2016-12-01 14:43:54.352088
+Wrote testobj9 at: 2016-12-01 14:44:05.493358
+Wrote testobj10 at: 2016-12-01 14:44:16.366008
+Deleting all objects...
+root@shivanshu-VirtualBox ~/KurmaTest0:
+
+root@shivanshu-VirtualBox ~/KurmaTest0: python readTest.py --ifile=yes
+Read testobj1 at: 2016-12-01 14:42:35.220473
+Read testobj2 at: 2016-12-01 14:42:47.199242
+Read testobj3 at: 2016-12-01 14:42:58.364340
+Read testobj4 at: 2016-12-01 14:43:09.865516
+Read testobj5 at: 2016-12-01 14:43:21.299255
+Read testobj6 at: 2016-12-01 14:43:32.516289
+Read testobj7 at: 2016-12-01 14:43:43.168577
+Read testobj8 at: 2016-12-01 14:43:54.200101
+Read testobj9 at: 2016-12-01 14:44:05.605306
+Read testobj10 at: 2016-12-01 14:44:16.549330
+
+
+Single site NY to Ireland 64K file
+==================================
+
+root@shivanshu-VirtualBox ~/KurmaTest0: python writeTest.py --ifile=yes
+Wrote testobj1 at: 2016-12-01 14:50:03.475153
+Wrote testobj2 at: 2016-12-01 14:50:14.871006
+Wrote testobj3 at: 2016-12-01 14:50:26.066322
+Wrote testobj4 at: 2016-12-01 14:50:37.325300
+Wrote testobj5 at: 2016-12-01 14:50:49.700213
+Wrote testobj6 at: 2016-12-01 14:51:01.769078
+Wrote testobj7 at: 2016-12-01 14:51:12.723612
+Wrote testobj8 at: 2016-12-01 14:51:24.044992
+Wrote testobj9 at: 2016-12-01 14:51:35.375397
+Wrote testobj10 at: 2016-12-01 14:51:46.220368
+Deleting all objects...
+
+root@shivanshu-VirtualBox ~/KurmaTest0: python readTest.py --ifile=yes
+Read testobj1 at: 2016-12-01 14:50:03.836390
+Read testobj2 at: 2016-12-01 14:50:15.212541
+Read testobj3 at: 2016-12-01 14:50:26.430792
+Read testobj4 at: 2016-12-01 14:50:37.716698
+Read testobj5 at: 2016-12-01 14:50:48.811938
+Read testobj6 at: 2016-12-01 14:51:02.210935
+Read testobj7 at: 2016-12-01 14:51:13.094285
+Read testobj8 at: 2016-12-01 14:51:24.461682
+Read testobj9 at: 2016-12-01 14:51:35.714360
+Read testobj10 at: 2016-12-01 14:51:46.668024
+
+
+Single site NY to Ireland 100K file
+===================================
+
+root@shivanshu-VirtualBox ~/KurmaTest0: python writeTest.py --ifile=yes
+Wrote testobj1 at: 2016-12-01 14:54:14.680652
+Wrote testobj2 at: 2016-12-01 14:54:26.357786
+Wrote testobj3 at: 2016-12-01 14:54:37.914564
+Wrote testobj4 at: 2016-12-01 14:54:54.159391
+Wrote testobj5 at: 2016-12-01 14:55:05.215168
+Wrote testobj6 at: 2016-12-01 14:55:16.914927
+Wrote testobj7 at: 2016-12-01 14:55:28.283408
+Wrote testobj8 at: 2016-12-01 14:55:39.406052
+Wrote testobj9 at: 2016-12-01 14:55:50.626116
+Wrote testobj10 at: 2016-12-01 14:56:02.181907
+Deleting all objects...
+
+
+root@shivanshu-VirtualBox ~/KurmaTest0: python readTest.py --ifile=yes
+Read testobj1 at: 2016-12-01 14:54:15.300004
+Read testobj2 at: 2016-12-01 14:54:26.760674
+Read testobj3 at: 2016-12-01 14:54:38.366082
+Read testobj4 at: 2016-12-01 14:54:54.557618
+Read testobj5 at: 2016-12-01 14:55:05.715353
+Read testobj6 at: 2016-12-01 14:55:17.487570
+Read testobj7 at: 2016-12-01 14:55:28.768256
+Read testobj8 at: 2016-12-01 14:55:39.747672
+Read testobj9 at: 2016-12-01 14:55:51.131798
+Read testobj10 at: 2016-12-01 14:56:02.300093
+
+
+
+Single site NY to Ireland 500K file
+===================================
+
+root@shivanshu-VirtualBox ~/KurmaTest0: python writeTest.py --ifile=yes
+Wrote testobj1 at: 2016-12-01 14:58:42.332537
+Wrote testobj2 at: 2016-12-01 14:58:57.482409
+Wrote testobj3 at: 2016-12-01 14:59:09.107538
+Wrote testobj4 at: 2016-12-01 14:59:20.718056
+Wrote testobj5 at: 2016-12-01 14:59:32.459368
+Wrote testobj6 at: 2016-12-01 14:59:44.362813
+Wrote testobj7 at: 2016-12-01 14:59:55.938810
+Wrote testobj8 at: 2016-12-01 15:00:07.338283
+Wrote testobj9 at: 2016-12-01 15:00:19.696651
+Wrote testobj10 at: 2016-12-01 15:00:35.657741
+Deleting all objects...
+
+
+root@shivanshu-VirtualBox ~/KurmaTest0: python readTest.py --ifile=yes
+Read testobj1 at: 2016-12-01 14:58:43.185418
+Read testobj2 at: 2016-12-01 14:58:58.436755
+Read testobj3 at: 2016-12-01 14:59:09.923737
+Read testobj4 at: 2016-12-01 14:59:21.434915
+Read testobj5 at: 2016-12-01 14:59:33.742020
+Read testobj6 at: 2016-12-01 14:59:45.172144
+Read testobj7 at: 2016-12-01 14:59:57.010860
+Read testobj8 at: 2016-12-01 15:00:08.383837
+Read testobj9 at: 2016-12-01 15:00:32.111245
+Read testobj10 at: 2016-12-01 15:00:52.497629
+root@shivanshu-VirtualBox ~/KurmaTest0:
+
+
+Single site NY to Ireland 500K file (repeat)
+============================================
+
+root@shivanshu-VirtualBox ~/KurmaTest0: python writeTest.py --ifile=yes
+Wrote testobj1 at: 2016-12-01 15:12:52.220650
+Wrote testobj2 at: 2016-12-01 15:13:04.112348
+Wrote testobj3 at: 2016-12-01 15:13:16.311278
+Wrote testobj4 at: 2016-12-01 15:13:28.016137
+Wrote testobj5 at: 2016-12-01 15:13:39.773701
+Wrote testobj6 at: 2016-12-01 15:13:51.888394
+Wrote testobj7 at: 2016-12-01 15:14:04.170916
+Wrote testobj8 at: 2016-12-01 15:14:15.982413
+Wrote testobj9 at: 2016-12-01 15:14:28.454783
+Wrote testobj10 at: 2016-12-01 15:14:40.109544
+Deleting all objects...
+
+root@shivanshu-VirtualBox ~/KurmaTest0: python readTest.py --ifile=yes
+Read testobj1 at: 2016-12-01 15:12:54.221172
+Read testobj2 at: 2016-12-01 15:13:04.961214
+Read testobj3 at: 2016-12-01 15:13:19.204532
+Read testobj4 at: 2016-12-01 15:13:29.193859
+Read testobj5 at: 2016-12-01 15:13:41.658978
+Read testobj6 at: 2016-12-01 15:13:52.985652
+Read testobj7 at: 2016-12-01 15:14:05.263479
+Read testobj8 at: 2016-12-01 15:14:16.936219
+Read testobj9 at: 2016-12-01 15:14:30.427129
+Read testobj10 at: 2016-12-01 15:14:41.186940
+
+
