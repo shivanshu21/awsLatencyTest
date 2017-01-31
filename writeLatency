@@ -1,0 +1,62 @@
+## 64KB objects
+===============
+root@shivanshu-VirtualBox ~/KurmaTest0: python writeTest.py --ifile=yes
+Wrote testobj1 at: 2016-12-06 15:38:54.160701
+Wrote testobj2 at: 2016-12-06 15:38:54.393289
+Wrote testobj3 at: 2016-12-06 15:38:55.012747
+Wrote testobj4 at: 2016-12-06 15:38:55.233291
+Wrote testobj5 at: 2016-12-06 15:38:55.465241
+Wrote testobj6 at: 2016-12-06 15:38:55.685458
+Wrote testobj7 at: 2016-12-06 15:38:55.951307
+Wrote testobj8 at: 2016-12-06 15:38:56.165210
+Wrote testobj9 at: 2016-12-06 15:38:56.383692
+Wrote testobj10 at: 2016-12-06 15:38:56.571249
+Deleting all objects...
+
+## 100KB objects
+================
+root@shivanshu-VirtualBox ~/KurmaTest0: python writeTest.py --ifile=yes
+Wrote testobj1 at: 2016-12-06 15:39:26.365185
+Wrote testobj2 at: 2016-12-06 15:39:26.588139
+Wrote testobj3 at: 2016-12-06 15:39:26.784918
+Wrote testobj4 at: 2016-12-06 15:39:27.031942
+Wrote testobj5 at: 2016-12-06 15:39:27.227557
+Wrote testobj6 at: 2016-12-06 15:39:27.456796
+Wrote testobj7 at: 2016-12-06 15:39:27.696329
+Wrote testobj8 at: 2016-12-06 15:39:27.900702
+Wrote testobj9 at: 2016-12-06 15:39:28.461193
+Wrote testobj10 at: 2016-12-06 15:39:28.698752
+Deleting all objects...
+
+
+## 500KB objects
+================
+root@shivanshu-VirtualBox ~/KurmaTest0: python writeTest.py --ifile=yes
+Wrote testobj1 at: 2016-12-06 15:39:39.759321
+Wrote testobj2 at: 2016-12-06 15:39:40.077297
+Wrote testobj3 at: 2016-12-06 15:39:40.345098
+Wrote testobj4 at: 2016-12-06 15:39:40.655261
+Wrote testobj5 at: 2016-12-06 15:39:42.060056
+Wrote testobj6 at: 2016-12-06 15:39:42.555992
+Wrote testobj7 at: 2016-12-06 15:39:42.862753
+Wrote testobj8 at: 2016-12-06 15:39:43.147311
+Wrote testobj9 at: 2016-12-06 15:39:43.455384
+Wrote testobj10 at: 2016-12-06 15:39:46.012729
+Deleting all objects...
+
+
+## 1MB objects
+==============
+root@shivanshu-VirtualBox ~/KurmaTest0: python writeTest.py --ifile=yes
+Wrote testobj1 at: 2016-12-06 15:43:03.421782
+Wrote testobj2 at: 2016-12-06 15:43:03.926074
+Wrote testobj3 at: 2016-12-06 15:43:04.398699
+Wrote testobj4 at: 2016-12-06 15:43:05.005438
+Wrote testobj5 at: 2016-12-06 15:43:05.573440
+Wrote testobj6 at: 2016-12-06 15:43:06.028961
+Wrote testobj7 at: 2016-12-06 15:43:06.492029
+Wrote testobj8 at: 2016-12-06 15:43:07.326014
+Wrote testobj9 at: 2016-12-06 15:43:07.791904
+Wrote testobj10 at: 2016-12-06 15:43:08.426524
+Deleting all objects...
+
