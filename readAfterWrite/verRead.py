@@ -30,7 +30,7 @@ def main(argv):
 
     bucket = userObj.get_bucket(bucket_name)
     j = 0
-    of = open (FILNAME, 'a')
+    of = open (FILNAME, 'w+')
     while (j < 10):
         j = j + 1
         k = Key(bucket)
