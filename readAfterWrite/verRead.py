@@ -44,7 +44,7 @@ def main(argv):
                 #print f.readline()
                 #f.close()
             except:
-                tstamp = str(datetime.now()) + '\n'
+                tstamp = str(time.mktime(datetime.now().timetuple())) + '\n'
                 #print("---------- Could not find " + keystring + " at: " + str(datetime.now()))
                 of.write(tstamp)
                 break
