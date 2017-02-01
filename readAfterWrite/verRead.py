@@ -16,6 +16,7 @@ def main(argv):
     ## PARAM OVERRIDES
     KurmaAWSTestLib.GLOBAL_DEBUG = 1
     bucket_name = 'readafterwrite003kurmaeu'
+    FILNAME = 'readtimes000'
 
     ret = KurmaAWSTestLib.fetchArgs(argv)
     if(ret == -1):
@@ -29,21 +30,26 @@ def main(argv):
 
     bucket = userObj.get_bucket(bucket_name)
     j = 0
-    while (j < 10000):
+    of = open (FILNAME, 'a')
+    while (j < 10):
         j = j + 1
         k = Key(bucket)
-        keystring = 'testobj'
+        keystring = 'testobj' + str(j)
         k.key = keystring
+        while(1):
+            try:
+                k.get_contents_to_filename(keystring)
+                #print ("Read " + keystring + " at: "+ str(datetime.now()))
+                #f = open(keystring, 'r+')
+                #print f.readline()
+                #f.close()
+            except:
+                tstamp = str(datetime.now()) + '\n'
+                #print("---------- Could not find " + keystring + " at: " + str(datetime.now()))
+                of.write(tstamp)
+                break
 
-        try:
-            k.get_contents_to_filename(keystring)
-            print ("Read " + keystring + " at: "+ str(datetime.now()))
-            f = open(keystring, 'r+')
-            print f.readline()
-            f.close()
-        except:
-            print("---------- Could not find " + keystring + " at: " + str(datetime.now()))
-            pass
+    of.close()
     return
 
 if __name__ == "__main__":
