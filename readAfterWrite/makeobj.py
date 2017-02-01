@@ -13,7 +13,7 @@ def main(argv):
     ## PARAM OVERRIDES
     KurmaAWSTestLib.GLOBAL_DEBUG = 1
     bucket_name = 'readafterwrite003kurmaeu'
-    OUTFILE = 'deltimes000'
+    DATAFIL = 'data1m'
 
     ret = KurmaAWSTestLib.fetchArgs(argv)
     if(ret == -1):
@@ -27,22 +27,23 @@ def main(argv):
 
     bucket = userObj.get_bucket(bucket_name)
     k = Key(bucket)
-    of = open(OUTFILE, 'w+')
-
-    # Deletion loop
     for i in range(1, 11):
         k.key = 'testobj' + str(i)
-        k.delete()
-        tstamp = str(datetime.now()) + '\n'
-        of.write(tstamp)
-        print ("Deleted " + str(i))
-        time.sleep(5)
+        k.set_contents_from_filename(DATAFIL)
+        print ("Wrote testobj" + str(i) + " at: "+ str(datetime.now()))
 
-    print ("Deleting all objects...")
-    for k in bucket.list():
-        k.delete()
 
-    of.close()
+    # Deletion loop
+    #for i in range(1, 11):
+    #    k.key = 'testobj' + str(i)
+    #    k.delete()
+    #    print ("Deleted " + str(i))
+    #    time.sleep(1)
+
+    #print ("Deleting all objects...")
+    #for k in bucket.list():
+    #    k.delete()
+
     return
 
 if __name__ == "__main__":
